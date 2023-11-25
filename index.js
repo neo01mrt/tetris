@@ -19,7 +19,7 @@ window.onload = () => {
             if (color !== null) {
                 this.color = color;
                 this.img = new Image();
-                this.img.src = `matrice${Tetromino.COLORS[color]}.jpg`
+                this.img.src = `https://neo01mrt.github.io/matricecolor0102342687/${Tetromino.COLORS[color]}.jpg`
             }
         }
 
