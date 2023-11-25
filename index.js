@@ -19,7 +19,7 @@ window.onload = () => {
             if (color !== null) {
                 this.color = color;
                 this.img = new Image();
-                this.img.src = `file:///C:/Users/anton/OneDrive/Bureau/matrice/${Tetromino.COLORS[color]}.jpg`
+                this.img.src = `matrice${Tetromino.COLORS[color]}.jpg`
             }
         }
 
